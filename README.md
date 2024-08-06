@@ -1,9 +1,8 @@
-```markdown
-# To-Do Application with Mongoose Model
+# To-Do Api using Node.js
 
 ## Overview
 
-This is a To-Do application built with Node.js, Express, and MongoDB using Mongoose for data modeling. The application allows users to manage tasks, including uploading images, setting priorities, and due dates.
+This is a To-Do application built with Node.js, Express, multer and MongoDB using Mongoose for data modeling. The application allows users to manage tasks, including uploading images, setting priorities, and due dates.
 
 ## To-Do Model
 
@@ -27,8 +26,8 @@ The model automatically includes `createdAt` and `updatedAt` timestamps for trac
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
-   cd todo-app
+   git clone https://github.com/khaledhelmyg/todo.git
+   cd todo
    ```
 
 2. **Install dependencies:**
@@ -49,9 +48,9 @@ The model automatically includes `createdAt` and `updatedAt` timestamps for trac
 
 ## API Endpoints
 
-### Create a Task
+### Create a Todo
 
-`POST /tasks`
+`POST /todos`
 
 - **Body:**
   ```json
@@ -65,13 +64,13 @@ The model automatically includes `createdAt` and `updatedAt` timestamps for trac
   }
   ```
 
-### Get All Tasks
+### Get All Todos
 
-`GET /tasks`
+`GET /todos`
 
-### Update a Task
+### Update a Todo
 
-`PUT /tasks/:id`
+`PUT /todos/:id`
 
 - **Body:**
   ```json
@@ -84,9 +83,9 @@ The model automatically includes `createdAt` and `updatedAt` timestamps for trac
   }
   ```
 
-### Delete a Task
+### Delete a Todo
 
-`DELETE /tasks/:id`
+`DELETE /todos/:id`
 
 ## Contributing
 
@@ -95,7 +94,6 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 ### Customization
 
