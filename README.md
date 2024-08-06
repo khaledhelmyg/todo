@@ -1,5 +1,3 @@
-Sure! Here’s a `README.md` file for your To-Do application that describes the model without including the schema definition.
-
 ```markdown
 # To-Do Application with Mongoose Model
 
